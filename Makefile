@@ -1,4 +1,5 @@
 all:
-	@echo "Please modify Makefile!"
+	gcc -std=gnu11 battle.c -o battle
+	gcc -std=gnu11 player.c -o player
 clean:
-	@echo "Please modify Makefile!"
+	rm battle player log* *fifo
